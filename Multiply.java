@@ -1,5 +1,5 @@
-public class Add implements Calc {
-   
+public class Multiply implements Calc {
+    
     public void method1() {
         System.out.println(str + "をします");
     }
@@ -9,8 +9,7 @@ public class Add implements Calc {
     }
     
     public void method3() {
-        System.out.println("計算結果:" + (a + b));
+        System.out.println("計算結果:" + (a * b));
     }
-    
     
 }
